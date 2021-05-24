@@ -14,7 +14,7 @@ function getSessions(cb) {
     if (err) {
       return cb(err);
     }
-    const data = JSON.parse(body); // Note: ASSUME: valid JSON DOC
+    const data = JSON.parse(body); // Note: ASSUME: valid JSON DOCUMENT
     cb(null, data);
   });
 }
